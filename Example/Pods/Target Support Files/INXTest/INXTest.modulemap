@@ -1,0 +1,6 @@
+framework module INXTest {
+  umbrella header "INXTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

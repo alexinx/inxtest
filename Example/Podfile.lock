@@ -1,0 +1,16 @@
+PODS:
+  - INXTest (0.1.0)
+
+DEPENDENCIES:
+  - INXTest (from `../`)
+
+EXTERNAL SOURCES:
+  INXTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  INXTest: ac2bf3e44f364963f2ff34dfca5666c8d1519571
+
+PODFILE CHECKSUM: d3defb31d3004c27435c1ecdf98aaf02ee6f2514
+
+COCOAPODS: 1.9.3

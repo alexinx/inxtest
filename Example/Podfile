@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'INXTest_Example' do
+  pod 'INXTest', :path => '../'
+
+  target 'INXTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

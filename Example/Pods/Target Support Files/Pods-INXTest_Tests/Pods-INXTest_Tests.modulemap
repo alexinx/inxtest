@@ -1,6 +1,0 @@
-framework module Pods_INXTest_Tests {
-  umbrella header "Pods-INXTest_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

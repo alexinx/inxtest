@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'INXTest'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Finally, dont worry about the indent, CocoaPods strips it!'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
@@ -28,14 +28,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'INXTest/Classes/**/*'
+  s.source_files = 'INXTest/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'INXTest' => ['INXTest/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit'
-#   s.vendored_frameworks = 'INXTest/StethIO.framework'
+#   s.frameworks = 'UIKit'
+#   s.preserve_path = 'INXTest/Frameworks/*'
+   s.vendored_frameworks = 'INXTest/Frameworks/StethIO.framework'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
